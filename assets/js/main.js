@@ -107,8 +107,8 @@
 			$wrapper = $('#wrapper'),
 			$header = $('#header'),
 			$nav = $('#nav'),
-			$main = $('#main'),
-			$navPanelToggle, $navPanel, $navPanelInner;
+			$main = $('#main');//,
+			// $navPanelToggle, $navPanel, $navPanelInner;
 
 		// Disable animations/transitions until the page has loaded.
 			$window.on('load', function() {
@@ -135,7 +135,7 @@
 
 			// Toggle.
 				$navPanelToggle = $(
-					'<a href="#navPanel" id="navPanelToggle">Menu</a>'
+					// '<a href="#navPanel" id="navPanelToggle">Menu</a>'
 				)
 					.appendTo($wrapper);
 
